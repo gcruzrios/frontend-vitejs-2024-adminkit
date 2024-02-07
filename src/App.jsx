@@ -17,6 +17,9 @@ import AddContacto from './pages/AddContacto';
 import EditContacto from './pages/EditContacto';
 import AddUsuario from './pages/AddUsuario';
 import EditUsuario from './pages/EditUsuario';
+import ListSectores from './pages/ListSectores';
+import AddSector from './pages/AddSector';
+import EditSector from './pages/EditSector';
 
 function App() {
   
@@ -67,6 +70,15 @@ function App() {
             {" "}
           </Route>
 
+          <Route path="/sectores" element={<ListSectores/>} exact>
+            {" "}
+          </Route> 
+          <Route path="/addsector" element={<AddSector/>} exact>
+            {" "}
+          </Route>
+          <Route path="/editsector/:id" element={<EditSector/>} exact>
+            {" "}
+          </Route>
 
       <Route path="*" element={<NotFound />} />
     </Routes>
