@@ -32,7 +32,7 @@ const Login = () => {
 
   
   const mystyle = {
-    backgroundImage: "url(img/photos/30.png)"
+    backgroundImage: "url(img/photos/pexels-andrew-neel-2312369.jpg)"
   };
 
 
@@ -49,7 +49,7 @@ const Login = () => {
                 
               </a>
               <div className="text-center mb-7">
-                <h3 className="text-body-highlight">Sign In</h3>
+                <h3 className="text-body-highlight">Welcome to AdminKit</h3>
                 <p className="text-body-tertiary">Get access to your account</p>
               </div>
               

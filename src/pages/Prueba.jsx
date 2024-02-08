@@ -8,11 +8,12 @@ const Prueba = () => {
     fontFamily: "Arial",
   };
 
-  return <div>
-
-<h1 style={mystyle}>Hello Style!</h1>
+  return (
+    <div>
+      <h1 style={mystyle}>Hello Style!</h1>
       <p>Add a little style!</p>
-  </div>;
+    </div>
+  );
 };
 
 export default Prueba;
