@@ -32,7 +32,7 @@ const Login = () => {
   return (
     <div>
        
-        <div className="row">
+        <div className="row vh-100">
           <div className="col-md-9 col-lg-9">
             <img src="img/photos/pexels-andrew-neel-2312369.jpg" width="100%" height="100%" object-fit="fill"/>
           </div>
