@@ -45,7 +45,7 @@ const Login = () => {
         </div>
         <div className="col-lg-3">
           <div className="row flex-center h-100 g-0 px-4 px-sm-0">
-            <div className="col col-sm-6 col-lg-7 col-xl-6"><a className="d-flex flex-center text-decoration-none mb-4" href="../../../index.html">
+            <div className="col col-sm-8 col-lg-10 col-xl-10"><a className="d-flex flex-center text-decoration-none mb-4" href="../../../index.html">
                 
               </a>
               <div className="text-center mb-7">
