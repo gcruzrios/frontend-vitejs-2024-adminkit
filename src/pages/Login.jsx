@@ -39,11 +39,11 @@ const Login = () => {
   return (
     <main className="main" id="top">
       <div className="row vh-100 g-0">
-        <div className="col-lg-8 position-relative d-none d-lg-block">
+        <div className="col-lg-9 position-relative d-none d-lg-block">
           <div className="bg-holder" style={mystyle}></div>
           {/* <!--/.bg-holder--> */}
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-3">
           <div className="row flex-center h-100 g-0 px-4 px-sm-0">
             <div className="col col-sm-6 col-lg-7 col-xl-6"><a className="d-flex flex-center text-decoration-none mb-4" href="../../../index.html">
                 
