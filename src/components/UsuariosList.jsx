@@ -46,16 +46,16 @@ const UsuariosList = () => {
         <div className="container-fluid p-0">
           <h1 className="h3 mb-3">Usuarios</h1>
 
-          <div class="col-12 col-xl-12">
-            <div class="card">
-              <div class="card-header">
-                <h5 class="card-title">Usuarios registrados</h5>
+          <div className="col-12 col-xl-12">
+            <div className="card">
+              <div className="card-header">
+                <h5 className="card-title">Usuarios registrados</h5>
 
                 <Link to="/addusuario" className="btn btn-primary float-end">
                   Agregar Usuario
                 </Link>
               </div>
-              <table class="table table-striped">
+              <table className="table table-striped">
                 <thead>
                   <tr>
                     <th>Nombre</th>
@@ -72,9 +72,9 @@ const UsuariosList = () => {
                       <td>{usuario.email}</td>
                       <td>{usuario.telefono}</td>
 
-                      <td class="d-none d-md-table-cell">{usuario.role}</td>
+                      <td className="d-none d-md-table-cell">{usuario.role}</td>
 
-                      <td class="table-action">
+                      <td className="table-action">
                         <Link
                           to={`/editusuario/${usuario._id}`}
                           className="btn btn-info"

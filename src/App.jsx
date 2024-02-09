@@ -21,7 +21,9 @@ import ListSectores from './pages/ListSectores';
 import AddSector from './pages/AddSector';
 import EditSector from './pages/EditSector';
 import Prueba from './pages/Prueba';
-
+import ListPaises from './pages/ListPaises';
+import AddPais from './pages/AddPais';
+import EditPais from './pages/EditPais';
 function App() {
   
 
@@ -80,6 +82,17 @@ function App() {
           <Route path="/editsector/:id" element={<EditSector/>} exact>
             {" "}
           </Route>
+
+          <Route path="/paises" element={<ListPaises/>} exact>
+            {" "}
+          </Route> 
+          <Route path="/addpais" element={<AddPais/>} exact>
+            {" "}
+          </Route>
+          <Route path="/editpais/:id" element={<EditPais/>} exact>
+            {" "}
+          </Route>
+
           <Route path="/prueba" element={<Prueba/>} exact>
             {" "}
           </Route>

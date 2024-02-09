@@ -47,17 +47,17 @@ const ContentMain = () => {
         <div className="container-fluid p-0">
           <h1 className="h3 mb-3">Empresas</h1>
 
-          <div class="col-12 col-xl-12">
-            <div class="card">
-              <div class="card-header">
-                <h5 class="card-title">Empresas registradas</h5>
+          <div className="col-12 col-xl-12">
+            <div className="card">
+              <div className="card-header">
+                <h5 className="card-title">Empresas registradas</h5>
 
                 <Link to="/addempresa" className="btn btn-primary float-end">
                   Agregar Empresa
                 </Link>
                 {/* <button className="btn btn-secondary float-end">Agregar Empresa</button>   */}
               </div>
-              <table class="table table-striped">
+              <table className="table table-striped">
                 <thead>
                   <tr>
                     <th>Nombre</th>
@@ -74,9 +74,9 @@ const ContentMain = () => {
                       <td>{empresa.nombre}</td>
                       <td>{empresa.telefono}</td>
                       <td>{empresa.email}</td>
-                      <td class="d-none d-md-table-cell">{empresa.pais}</td>
-                      <td class="d-none d-md-table-cell">{empresa.sector}</td>
-                      <td class="table-action">
+                      <td className="d-none d-md-table-cell">{empresa.pais}</td>
+                      <td className="d-none d-md-table-cell">{empresa.sector}</td>
+                      <td className="table-action">
                         <Link
                           to={`/editempresa/${empresa._id}`}
                           className="btn btn-info"

@@ -63,15 +63,15 @@ const SectoresList = () => {
 
          
 
-<div class="col-12 col-xl-12">
-							<div class="card">
-								<div class="card-header">
-									<h5 class="card-title">Sectores registrados</h5>
+<div className="col-12 col-xl-12">
+							<div className="card">
+								<div className="card-header">
+									<h5 className="card-title">Sectores registrados</h5>
 									
                   <Link to="/addsector" className="btn btn-primary float-end">Agregar Sector</Link>
                 
 								</div>
-								<table class="table table-striped">
+								<table className="table table-striped">
 									<thead>
 										<tr>
 											<th >Nombre</th>
@@ -87,7 +87,7 @@ const SectoresList = () => {
 											<td>{sector.descripcion}</td>
                                             
                                             
-											<td class="table-action">
+											<td className="table-action">
 												<Link to={`/editsector/${sector._id}`} className="btn btn-info">Editar</Link>{" "}
 												<button className="btn btn-danger" onClick={()=>eliminar(sector._id)}> Borrar</button>
 											</td>
